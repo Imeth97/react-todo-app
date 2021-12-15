@@ -1,5 +1,8 @@
-const Title = () => {
-    const listName = 'To Do List 1'
+const Title = (props) => {
+    
+    
+    const listName = props.data;
+    
     return ( 
         <div className="Title">
             <h1>{ listName }</h1>

@@ -1,3 +1,17 @@
+A simple to-do app to practise react.js. 
+
+Functionality (both already implemented and yet to be implemented):
+
+- To view a to do list 
+- To select an existing to do list
+- To Add/delete to do lists 
+- To edit an existing to do list 
+
+Utilises the json-server module which simulates the use of a fake REST API. 
+All of the data is stored in data/db.json 
+It is loaded when required using a GET fetch command. 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
